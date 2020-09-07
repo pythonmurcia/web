@@ -1,4 +1,13 @@
+.body {
+    font-weight: 400 !important;
+    background-color: #fff !important;
+
+}
 .page-head {
-    background-color: #000 !important;
-    color: #A33344 !important;
+    background-color: #fff;
+    color: #a33344 !important;
+}
+.page-head .head-title {
+    font-size: 7em !important;
+    letter-spacing: 4px !important;
 }
