@@ -15,6 +15,6 @@ def home():
 	and the index.html template located in ./templates/
 	to return the main page to the browser.
 	"""
-	return 'main page'
+	return render_template('index.html')
 if __name__ == '__main__':
 	app.run(debug=True)
