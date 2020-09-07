@@ -9,5 +9,30 @@
 }
 .page-head .head-title {
     font-size: 7em !important;
+    font-weight: 500 !important;
     letter-spacing: 4px !important;
+}
+.page-head .head-subtitle {
+    font-size: 1.7em !important;
+    font-weight: 300 !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+.btn {
+    border-radius: 18px !important;
+    font-size: 2em !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.primary {
+    margin-top: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    background-color: #a33344 !important;
+    color: #fff !important;
+    border: 2px solid #a33344 !important;
+}
+.primary:hover {
+    background-color: #fff !important;
+    color: #a33344 !important;
 }
