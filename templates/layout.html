@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<!--meta and codification tags-->
 	<meta charset="UTF-8">
@@ -41,6 +41,14 @@
 		</div>
 	</nav>
 	{% block body %}{% endblock body %}
+	<!--footer of the page-->
+	<div class="footer">
+        <div class="copyright">
+            <img src="{{ url_for('static', filename='images/siluet.png') }}" width="75" class="mb-4"><br />
+            Python Murcia © - 2020
+        </div><br/>
+        <div class="design">design by <a class="link" href="https://twitter.com/pablocorbcon">Pablo Corbalán</a></div>
+    </div>
 	<!--BootStrap4 JS-->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

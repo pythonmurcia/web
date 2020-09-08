@@ -15,6 +15,28 @@ def home():
 	and the index.html template located in ./templates/
 	to return the main page to the browser.
 	"""
+	# create the cards diccionary
+	cards = [
+		{
+			'image_route':'...',
+			'image_alt':'image 1',
+			'title':'card 1',
+			'text':'text of card 1'
+		},
+		{
+			'image_route':'...',
+			'image_alt':'image 2',
+			'title':'card 2',
+			'text':'text of card 2'
+		},
+		{
+			'image_route':'...',
+			'image_alt':'image 3',
+			'title':'card 3',
+			'text':'text of card 3'
+		}
+
+	]
 	return render_template('index.html')
 if __name__ == '__main__':
 	app.run(debug=True)

@@ -17,7 +17,7 @@
     letter-spacing: 4px !important;
 }
 .page-head .head-subtitle {
-    font-size: 1.7em !important;
+    font-size: 1.5em !important;
     font-weight: 300 !important;
     color: rgba(0, 0, 0, 0.6) !important;
 }
@@ -42,6 +42,40 @@
 
 /*CSS for the cards section*/
 .cards {
-    background-color: rgba(0, 0, 0, 0.7); !important;
-    margin-top: 25px;
+    text-align: center !important;
+    background: rgba(0, 0, 0, 0.7); !important;
+    padding: 60px 50px !important;
+    background-image: url("../images/gwave.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+    margin-bottom: -2px !important;
+}
+/*footer CSS*/
+.footer {
+    text-align: center !important;
+    padding: 5px 6px !important;
+    color: #BBBBBB !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    padding: 30px 30px !important
+}
+
+.footer .design {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 5px !important;
+    letter-spacing: 0.15em !important;
+    font-variant: small-caps !important;
+}
+
+.footer .design .link {
+    color: #a33344 !important;
+    text-decoration: none !important;
+}
+
+.footer .copyright {
+    text-align: center !important;
+    color: rgba(255, 255, 255, 0.8) !important;
 }
