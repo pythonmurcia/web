@@ -1,6 +1,7 @@
 .body {
     font-weight: 400 !important;
     background-color: #fff !important;
+    font-family: "Lato" !important;
 
 }
 .page-head {
@@ -12,14 +13,16 @@
     background-repeat: no-repeat !important;
 }
 .page-head .head-title {
-    font-size: 7em !important;
-    font-weight: 500 !important;
+    font-size: 5.5em !important;
+    font-weight: 600 !important;
     letter-spacing: 4px !important;
+    margin-bottom: 12px !important;
 }
 .page-head .head-subtitle {
     font-size: 1.5em !important;
     font-weight: 300 !important;
     color: rgba(0, 0, 0, 0.6) !important;
+    margin-bottom: 17px !important;
 }
 .btn {
     border-radius: 18px !important;
@@ -43,20 +46,19 @@
 /*CSS for the cards section*/
 .cards {
     text-align: center !important;
-    background: rgba(0, 0, 0, 0.7); !important;
+    background: rgba(0, 0, 0, 0.5); !important;
     padding: 60px 50px !important;
     background-image: url("../images/gwave.svg") !important;
     background-position: bottom !important;
     background-size: 200% !important;
     background-repeat: no-repeat !important;
-    margin-bottom: -2px !important;
 }
 /*footer CSS*/
 .footer {
     text-align: center !important;
     padding: 5px 6px !important;
     color: #BBBBBB !important;
-    background-color: rgba(0, 0, 0, 0.8) !important;
+    background-color: rgba(0, 0, 0, 0.75) !important;
     padding: 30px 30px !important
 }
 
