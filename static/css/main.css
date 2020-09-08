@@ -11,6 +11,7 @@
     background-position: bottom !important;
     background-size: 200% !important;
     background-repeat: no-repeat !important;
+    margin-bottom: -0.2px !important;
 }
 .page-head .head-title {
     font-size: 5.5em !important;
@@ -22,7 +23,7 @@
     font-size: 1.5em !important;
     font-weight: 300 !important;
     color: rgba(0, 0, 0, 0.6) !important;
-    margin-bottom: 17px !important;
+    margin-bottom: 1.7em !important;
 }
 .btn {
     border-radius: 18px !important;
@@ -55,6 +56,13 @@
 }
 .card {
     border-radius: 18px !important;
+}
+.card:hover {
+    transform: scale(1.05) !important;
+}
+.card-color {
+    height:40% !important;
+    background-color: #a33344 !important;
 }
 .card-title {
     color: #a33344 !important;
