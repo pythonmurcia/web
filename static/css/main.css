@@ -26,7 +26,7 @@
 }
 .btn {
     border-radius: 18px !important;
-    font-size: 2em !important;
+    font-size: 1.7em !important;
     font-weight: 600 !important;
     text-transform: uppercase !important;
 }
@@ -53,6 +53,14 @@
     background-size: 200% !important;
     background-repeat: no-repeat !important;
 }
+.card {
+    border-radius: 18px !important;
+}
+.card-title {
+    color: #a33344 !important;
+    font-family: "Lato" !important;
+    font-weight: 475 !important;
+}
 /*footer CSS*/
 .footer {
     text-align: center !important;
@@ -72,7 +80,7 @@
     font-variant: small-caps !important;
 }
 
-.footer .design .link {
+.link {
     color: #a33344 !important;
     text-decoration: none !important;
 }
