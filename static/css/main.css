@@ -6,6 +6,10 @@
 .page-head {
     background-color: #fff;
     color: #a33344 !important;
+    background-image: url("../images/wave.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
 }
 .page-head .head-title {
     font-size: 7em !important;
@@ -25,7 +29,6 @@
 }
 
 .primary {
-    margin-top: 30px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
     background-color: #a33344 !important;
@@ -35,4 +38,10 @@
 .primary:hover {
     background-color: #fff !important;
     color: #a33344 !important;
+}
+
+/*CSS for the cards section*/
+.cards {
+    background-color: rgba(0, 0, 0, 0.7); !important;
+    margin-top: 25px;
 }
