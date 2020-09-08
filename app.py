@@ -15,28 +15,25 @@ def home():
 	and the index.html template located in ./templates/
 	to return the main page to the browser.
 	"""
-	# create the cards diccionary
+	# create the cards diccionary and pass it to the index.html template
 	cards = [
 		{
-			'image_route':'...',
-			'image_alt':'image 1',
-			'title':'card 1',
-			'text':'text of card 1'
+			'image_alt':'...',
+			'title':'Python España',
+			'text':'Python Murcia nace del movimiento de comunidades español Python España. Creada por unos estudiantes que buscan reunir a la mayor comunidad de programadores posible.'
 		},
 		{
-			'image_route':'...',
-			'image_alt':'image 2',
-			'title':'card 2',
-			'text':'text of card 2'
+			'image_alt':'...',
+			'title':'Open Source',
+			'text':'Al igual que Python en sí, esta comunidad apuesta por el código abierto, disfruta de la creación de otros programadores y haz que otros disfruten de la tuya.'
 		},
 		{
-			'image_route':'...',
-			'image_alt':'image 3',
-			'title':'card 3',
-			'text':'text of card 3'
+			'image_alt':'...',
+			'title':'Branding',
+			'text':'Como cualquier otra empresa o organización, nosotros también tenemos marca. Puedes ver la marca de la organización en la sección <a href="" class="link">branding</a> de nuestra página.'
 		}
 
 	]
-	return render_template('index.html')
+	return render_template('index.html', cards=cards)
 if __name__ == '__main__':
 	app.run(debug=True)
