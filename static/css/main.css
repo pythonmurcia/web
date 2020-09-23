@@ -56,18 +56,20 @@
 }
 .card {
     border-radius: 18px !important;
+    height: 30rem !important; 
 }
 .card:hover {
     transform: scale(1.05) !important;
-}
-.card-color {
-    height:40% !important;
-    background-color: #a33344 !important;
 }
 .card-title {
     color: #a33344 !important;
     font-family: "Lato" !important;
     font-weight: 475 !important;
+}
+/*Create a map*/
+.map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
 }
 /*footer CSS*/
 .footer {

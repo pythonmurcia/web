@@ -30,7 +30,7 @@ def home():
 		{
 			'image_alt':'...',
 			'title':'Branding',
-			'text':'Como cualquier otra empresa o organización, nosotros también tenemos marca. Puedes ver la marca de la organización en la sección <a href="" class="link">branding</a> de nuestra página.'
+			'text':'Como cualquier otra empresa o organización, nosotros también tenemos marca. Puedes ver la marca de la organización en la sección branding de nuestra página.'
 		}
 
 	]
