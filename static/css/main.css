@@ -58,13 +58,20 @@
     border-radius: 18px !important;
     height: 35rem !important; 
 }
-.card:hover {
+.card:hover{
     transform: scale(1.05) !important;
 }
 .card-title {
     color: #a33344 !important;
     font-family: "Lato" !important;
     font-weight: 475 !important;
+}
+.telegram {
+    padding-top: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+.telegram-card {
+    
 }
 /*Create a map*/
 .map {
