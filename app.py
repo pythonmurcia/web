@@ -35,5 +35,21 @@ def home():
 
 	]
 	return render_template('index.html', cards=cards)
+
+@app.route('/contacto')
+def contact():
+	"""
+	This function is the function that manages the 
+	contact templeate (located in templates/contact.html)
+	to then return it.
+	"""
+	social_media = [
+		{
+			"link":"https:github.com/pythonmurcia",
+			"image_route":"images/logos/github.png"
+		}
+	]
+	return render_template('contact.html', title='Contact')
+
 if __name__ == '__main__':
 	app.run(debug=True)
