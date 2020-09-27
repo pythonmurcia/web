@@ -36,6 +36,10 @@ def home():
 	]
 	return render_template('index.html', cards=cards)
 
+@app.route('/contacto')
+def contact():
+	return render_template('contact.html')
+	
 @app.errorhandler(404)
 @app.route('/error/404')
 def error404(err=None):

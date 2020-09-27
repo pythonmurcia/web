@@ -66,9 +66,9 @@
     font-family: "Lato" !important;
     font-weight: 475 !important;
 }
+/*==============================CONTACT==========================*/
 .telegram {
     padding-top: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.75) !important;
     padding-bottom: 1.5rem;
 }
 .telegram-card {
@@ -82,9 +82,101 @@
     color:#fff !important;
     font-size: 1.5rem;
 }
-.map {
-    height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
+.telegram .telegram-card .link {
+    background-color: #fff !important;
+    color: #2CA4E4 !important;
+    border-radius: 18px !important;
+    border: 2px solid #2CA4E4 !important;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem  !important;
+}
+.telegram .telegram-card .link:hover {
+    background-color: #2CA4E4 !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+.twitter {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.github {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.github-card {
+    border-radius: 18px;
+    background-color: #000 !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-family: "Lato" !important;
+    font-size: 1.2rem !important;
+}
+.github .github-card .card-title {
+    color:#fff !important;
+    font-size: 1.5rem;
+}
+.github .github-card .link {
+    background-color: #fff !important;
+    color: #000 !important;
+    border-radius: 18px !important;
+    border: 2px solid #fff !important;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem  !important;
+}
+.github .github-card .link:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-radius: 18px !important;
+    border: 2px solid #fff !important
+}
+.twitter-card {
+    border-radius: 18px;
+    background-color: #1CA4F4!important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-family: "Lato" !important;
+    font-size: 1.2rem !important;
+}
+.twitter .twitter-card .card-title {
+    color:#fff !important;
+    font-size: 1.5rem;
+}
+.twitter .twitter-card .link {
+    background-color: #fff !important;
+    color: #1CA4F4 !important;
+    border-radius: 18px !important;
+    border: 2px solid #1CA4F4 !important;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem  !important;
+}
+.twitter .twitter-card .link:hover {
+    background-color: #1CA4F4 !important;
+    color: #fff !important;
+    border-radius: 18px !important;
+    border: 2px solid #fff !important
+}
+.gmail {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.gmail-card {
+    border-radius: 18px;
+    background-color: #D3483A !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-family: "Lato" !important;
+    font-size: 1.2rem !important;
+}
+.gmail .gmail-card .card-title {
+    color:#fff !important;
+    font-size: 1.5rem;
+}
+.gmail .gmail-card .link {
+    background-color: #fff !important;
+    color: #D3483A !important;
+    border-radius: 18px !important;
+    border: 2px solid #D3483A !important;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem  !important;
+}
+.gmail .gmail-card .link:hover {
+    background-color: #D3483A !important;
+    color: #fff !important;
+    border-radius: 18px !important;
+    border: 2px solid #fff !important
 }
 /*footer CSS*/
 .footer {
