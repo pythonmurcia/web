@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block content %}
+<!--create a navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="/">
+		<img src="{{ url_for('static', filename='images/siluet.png') }}" width="30" height="30" alt="" loading="lazy">
+	</a>	
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarText">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="/">Inicio
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" target="_blank" href="https://github.com/pythonmurcia">Código</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+{% block body %}{% endblock body %}
+<!--footer of the page-->
+<div class="footer">
+    <div class="copyright">
+        <img src="{{ url_for('static', filename='images/siluet.png') }}" width="75" class="mb-4"><br />
+           Python Murcia © - 2020
+    </div><br/>
+	<div class="design">design by <a class="link" href="https://github.com/PabloCorbCon">Pablo Corbalán</a></div>
+</div>
+{% endblock content %}
