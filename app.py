@@ -36,5 +36,13 @@ def home():
 	]
 	return render_template('index.html', cards=cards)
 
+@app.errorhandler(404)
+def error404(err):
+	e404 = {
+		'number':'404',
+		'title':'Página no encontrada',
+		'description':'Comprueba que la dirección del enlace esté bien escrita.'}
+	return render_template('error.html', title='404', error=e404)
+
 if __name__ == '__main__':
 	app.run(debug=True)
