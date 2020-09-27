@@ -1,10 +1,11 @@
 # Página web - Python Murcia
 Como toda organización, Python Murcia necesitaba una página web y aquí está. 
 La web, ha sido desarrollada utilizando el microframework de Python [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+###### Puedes ver más ejemplos [aquí](https://github.com/pythonmurcia/web/tree/master/examples)
 ### Futuras implementaciones
 Por el momento la página web de Python Murcia es estática, aunque muy probablemente implementemos algún sistema de contribución detro de poco. Si tienes alguna sugerencia para la web puedes abrir un [issue](https://github.com/pythonmurcia/web/issues) y te contestaremos lo antes posible.
 ### Licencia
-La página web de Python Murcia es de código abierto y se le aplica la [licencia Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+La página web de Python Murcia es de código abierto y se le aplica la [licencia Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
 ```
 Copyright 2020 Python Murcia
 
