@@ -69,11 +69,19 @@
 .telegram {
     padding-top: 1.5rem;
     background-color: rgba(0, 0, 0, 0.75) !important;
+    padding-bottom: 1.5rem;
 }
 .telegram-card {
-    
+    border-radius: 18px;
+    background-color: #2CA4E4 !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-family: "Lato" !important;
+    font-size: 1.2rem !important;
 }
-/*Create a map*/
+.telegram .telegram-card .card-title {
+    color:#fff !important;
+    font-size: 1.5rem;
+}
 .map {
     height: 400px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
